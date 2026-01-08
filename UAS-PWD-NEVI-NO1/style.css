@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f7f9;
+}
+
+/* HEADER */
+.header {
+    background-color: #bfe7ea;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.judul {
+    text-align: center;
+    width: 100%;
+}
+
+.judul h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.judul p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+/* FRAME */
+.frame {
+    display: flex;
+    min-height: 350px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    border-right: 2px solid #999;
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.sidebar a {
+    display: block;
+    background-color: #e11d48;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 5px;
+}
+
+textarea {
+    height: 60px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #bfe7ea;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* JADWAL KULIAH */
+.judul-jadwal {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.jadwal {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+}
+
+.jadwal th,
+.jadwal td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* WARNA KOLOM */
+.waktu {
+    background-color: #e5e5e5;
+    font-weight: bold;
+}
+
+.senin {
+    background-color: #ffd6d6;
+}
+
+.selasa {
+    background-color: #d6ffd6;
+}
+
+.rabu {
+    background-color: #d6d6ff;
+}
+
+.kamis {
+    background-color: #fff1b8;
+}
+
+.istirahat {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
